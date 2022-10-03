@@ -25,7 +25,7 @@ public class Lab1 {
 		}
 		//Вывод больших чисел
 		if(BigNumber.size() != 0) {
-			System.out.println("BigNumber:");
+			System.out.println("Big Numbers:");
 			for(int i = 0; i < BigNumber.size(); i++) {
 				System.out.printf("%.5f\n", BigNumber.get(i));
 			}
@@ -51,7 +51,8 @@ public class Lab1 {
 		for(int i = 0; i < 12; i++) {
 			for(int j = 0; j < 18; j++) {
 				if(n[i] == 5) {
-					s[i][j] = Math.pow(Math.sin(Math.sin(x[j])), (Math.pow(Math.E, x[j]) / (1 - Math.pow((0.5 * x[j]),2))) / (Math.sin(Math.pow(Math.E,x[j])) - 2/3));
+					s[i][j] = Math.pow(Math.sin(Math.sin(x[j])), (Math.pow(Math.E, x[j]) / 
+								(1 - Math.pow((0.5 * x[j]),2))) / (Math.sin(Math.pow(Math.E,x[j])) - 2/3));
 				}
 				else if(n[i] >=7 && n[i] <=17) {
 					s[i][j] = Math.log(Math.pow( Math.tan(Math.sin(Math.cbrt(x[j]))),2.));
