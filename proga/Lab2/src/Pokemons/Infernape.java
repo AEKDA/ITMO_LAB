@@ -1,5 +1,5 @@
-package Pokemons;
-import Moves.*;
+package pokemons;
+import moves.*;
 
 public class Infernape  extends Monferno {
 

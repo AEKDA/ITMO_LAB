@@ -1,6 +1,6 @@
-package Pokemons;
+package pokemons;
 import ru.ifmo.se.pokemon.*;
-import Moves.*;
+import moves.*;
 
 public class Ledyba extends Pokemon {
     public Ledyba(String name, int level) {

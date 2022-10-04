@@ -1,6 +1,6 @@
-package Pokemons;
+package pokemons;
 import ru.ifmo.se.pokemon.*;
-import Moves.*;
+import moves.*;
 
 public class Volbeat extends Pokemon {
 

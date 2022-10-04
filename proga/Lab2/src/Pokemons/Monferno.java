@@ -1,5 +1,5 @@
-package Pokemons;
-import Moves.*;
+package pokemons;
+import moves.*;
 import ru.ifmo.se.pokemon.*;
 
 public class Monferno extends Chimchar {
